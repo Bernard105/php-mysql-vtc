@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Đăng ký sinh viên</title>
+    <meta
+      name="description"
+      content="Form đăng ký sinh viên – hệ thống quản lý sinh viên sử dụng PHP và Semantic HTML."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hệ Thống Quản Lý Sinh Viên</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Đăng ký sinh viên</h2>
+
+        <!-- Lưu ý: action trỏ về index.php -->
+        <form method="post" action="index.php">
+          <p>
+            <label>Họ và tên</label><br />
+            <input type="text" name="name" required />
+          </p>
+
+          <p>
+            <label>Email</label><br />
+            <input type="email" name="email" required />
+          </p>
+
+          <p>
+            <label>Tuổi</label><br />
+            <input type="number" name="age" min="0" />
+          </p>
+
+          <p>
+            <label>Số điện thoại</label><br />
+            <input
+              type="text"
+              name="phone"
+              placeholder="0xxxxxxxxx hoặc +84xxxxxxxxx"
+              required
+            />
+          </p>
+
+          <p>
+            <label>Địa chỉ</label><br />
+            <input type="text" name="address" />
+          </p>
+
+          <p>
+            <label>GPA</label><br />
+            <input type="text" name="gpa" placeholder="Ví dụ: 3.2" />
+          </p>
+
+          <!-- ✅ BỎ INPUT student_id, thay bằng note -->
+          <p>
+            <label>Mã sinh viên</label><br />
+            <small>Mã sinh viên sẽ được hệ thống tự tạo sau khi bạn đăng ký.</small>
+          </p>
+
+          <p>
+            <label>Avatar (URL/đường dẫn)</label><br />
+            <input
+              type="text"
+              name="avatar"
+              placeholder="Ví dụ: https://... hoặc images/avatar.png"
+            />
+          </p>
+
+          <p>
+            <label>Giới tính</label><br />
+            <label>
+              <input type="radio" name="gender" value="male" required /> Nam
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" /> Nữ
+            </label>
+            <label>
+              <input type="radio" name="gender" value="other" /> Khác
+            </label>
+          </p>
+
+          <button type="submit">Đăng ký</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 – Hệ thống quản lý sinh viên</p>
+    </footer>
+  </body>
+</html>

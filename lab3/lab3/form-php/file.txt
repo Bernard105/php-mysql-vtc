@@ -1,0 +1,3 @@
+{"id":1,"name":"Nguyen Van B","email":"bcbcvb@gmail.com","age":"20","phone":"0922222222","address":"Hương lộ 3 đường số 12","gpa":"3.8","student_id":"10052629011424","gender":"male","avatar":""}
+{"id":2,"name":"Nguyen Van B","email":"bcbcvb@gmail.com","age":"20","phone":"0922222222","address":"Hương lộ 3 đường số 12","gpa":"3.8","student_id":"10052629011424","gender":"male","avatar":""}
+{"id":3,"name":"Nguyen Van B","email":"bcbcvb@gmail.com","age":"20","phone":"0922222222","address":"Hương lộ 3 đường số 12","gpa":"3.8","student_id":"10052629011438","gender":"male","avatar":""}
